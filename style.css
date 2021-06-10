@@ -1,0 +1,11 @@
+body{
+    text-align:center;
+   background-color: mistyrose;
+}
+#sortinghat{
+    display:none;
+    margin:15px;
+}
+#submit{
+    margin:15px;
+}

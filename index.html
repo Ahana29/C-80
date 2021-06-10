@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>
+            List of students
+        </title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+        <h1>
+            List of Students
+        </h1>
+        <div>
+            
+            <input type= "text" id="name_1" placeholder="name of the student">
+            <br>
+            <br>
+            
+        </div> 
+        
+        <button onclick="submit_button()" id="submit" class="btn btn-success">
+            Submit
+        </button>
+        <span>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+        </span>
+        <div id="display_name">
+    
+        </div>
+        <hr>
+        <div id="show_people">
+          <h3>
+              Name of students
+          </h3>
+          <button onclick="show_hoomans()">Show </button>
+          <p id="p1">
+
+          </p>
+        </div>
+        <hr>
+         <input type="text" placeholder="search name" id="srch">
+         
+<span>
+    &nbsp;
+</span>
+        
+        <button onclick="search()" id="searchking" class="btn btn-info">
+            Search
+        </button>
+      <p id="p2">
+          </p>
+        </div>
+        <script src="main.js">
+
+        </script>
+    </body>
+</html>
